@@ -1,34 +1,32 @@
-<!DOCTYPE HTML> 
-<html> 
-<head> 
-    <title>Blog EMS</title> 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-    <link rel="stylesheet" href="css/style.css">    
-</head> 
-<body> 
-    <p>Get your greeting <a href="/greeting">here</a></p> 
-        <!-- Cabecera --> 
-        <header> 
-             
-            <h1>Este es mi Blog </h1> 
-        </header> 
+html,body {
+ height:100%; 
+ background:white; 
+} 
  
-        <!-- Contenido --> 
-        <section>   
-   <b>Libros</b> 
-            <p>(Contenido)</p> 
-  </section>  
+header { 
    
-        <section>   
-   <b>Películas</b> 
-            <p>(Contenido)</p> 
-        </section>      
+ display:block; 
+ background:#d7e0e9; 
+ padding:10px 0px; 
+} 
+ 
+section { 
+ width: 79%; 
+ float: left; 
+ overflow: auto; 
+ padding-bottom: 60px; 
+ padding-top:30px; 
+ color: black; 
+} 
  
  
-        <!-- Pie de pagina --> 
-        <footer> 
-                (c) Aspectos Juridicos    
-        </footer> 
- 
-</body> 
-</html> 
+footer { 
+ position: relative; 
+ margin-top: -50px; 
+ height: 40px;  
+ padding:5px 0px; 
+ clear: both; 
+ background: #d7e0e9; 
+ text-align: center; 
+ color: black; 
+} 
